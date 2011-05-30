@@ -1,0 +1,15 @@
+<?php // -*-php-*-
+// rcs_id('$Id: body.tmpl 7589 2010-07-02 07:31:33Z vargenau $');
+?>
+<body<?php echo $WikiTheme->getMoreAttr('body') ?>>
+
+<div id="header">
+  <?php echo Template('top') ?>
+</div>
+<div id="content">
+
+<?php echo $CONTENT ?>
+
+</div>
+<?php echo Template('bottom') ?>
+</body>
